@@ -4,6 +4,7 @@ const sumAll = function(...args) {
     var end = Math.max(...args);
 
    if (start < 0) return "ERROR";
+   if (!Number.isInteger(start) || !Number.isInteger(end) ) return "ERROR";
 
 
 
