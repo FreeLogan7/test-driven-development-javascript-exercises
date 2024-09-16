@@ -1,5 +1,5 @@
 const sumAll = function(start, end) {
-    var sumAll =0;
+    let sumAll =0;
     
     if (start > end) [start, end] = [end, start];
      if (start < 0 || end < 0) return "ERROR";
@@ -7,7 +7,7 @@ const sumAll = function(start, end) {
 
 
 
-        for (var i = start; i <= end; i++)
+        for (let i = start; i <= end; i++)
          {
          sumAll += i;
          }
